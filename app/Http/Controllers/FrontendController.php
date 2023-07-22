@@ -9,6 +9,7 @@ use App\Models\PostCategory;
 use App\Models\Post;
 use App\Models\Cart;
 use App\Models\Brand;
+use app\models\newsletters;
 use App\User;
 use Auth;
 use Session;
