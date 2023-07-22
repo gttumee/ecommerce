@@ -226,5 +226,9 @@ class HomeController extends Controller
         return redirect()->route('user')->with('success','Password successfully changed');
     }
 
+    public function dashboart(){
+        return view('dashboard');
+    }
+
     
 }

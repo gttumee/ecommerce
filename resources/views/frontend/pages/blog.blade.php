@@ -1,6 +1,6 @@
 @extends('frontend.layouts.master')
 
-@section('title','E-SHOP || Blog Page')
+@section('title','Nimo.mn || Нийтлэл')
 
 @section('main-content')
     <!-- Breadcrumbs -->
@@ -10,8 +10,8 @@
                 <div class="col-12">
                     <div class="bread-inner">
                         <ul class="bread-list">
-                            <li><a href="{{route('home')}}">Home<i class="ti-arrow-right"></i></a></li>
-                            <li class="active"><a href="javascript:void(0);">Blog Grid Sidebar</a></li>
+                            <li><a href="{{route('home')}}">Эхлэл<i class="ti-arrow-right"></i></a></li>
+                            <li class="active"><a href="javascript:void(0);">Нийтлэл</a></li>
                         </ul>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                                         </p>
                                         <a href="{{route('blog.detail',$post->slug)}}" class="title">{{$post->title}}</a>
                                         <p>{!! html_entity_decode($post->summary) !!}</p>
-                                        <a href="{{route('blog.detail',$post->slug)}}" class="more-btn">Continue Reading</a>
+                                        <a href="{{route('blog.detail',$post->slug)}}" class="more-btn">Үргэлжлүүлэх</a>
                                     </div>
                                 </div>
                                 <!-- End Single Blog  -->
@@ -59,14 +59,14 @@
                         <!-- Single Widget -->
                         <div class="single-widget search">
                             <form class="form" method="GET" action="{{route('blog.search')}}">
-                                <input type="text" placeholder="Search Here..." name="search">
+                                <input type="text" placeholder="Хайх..." name="search">
                                 <button class="button" type="sumbit"><i class="fa fa-search"></i></button>
                             </form>
                         </div>
                         <!--/ End Single Widget -->
                         <!-- Single Widget -->
                         <div class="single-widget category">
-                            <h3 class="title">Blog Categories</h3>
+                            <h3 class="title">Нийтлэлийн Ангилал</h3>
                             <ul class="categor-list">
                                 @if(!empty($_GET['category']))
                                     @php
@@ -88,7 +88,7 @@
                         <!--/ End Single Widget -->
                         <!-- Single Widget -->
                         <div class="single-widget recent-post">
-                            <h3 class="title">Recent post</h3>
+                            <h3 class="title">Сүүлд үзсэн</h3>
                             @foreach($recent_posts as $post)
                                 <!-- Single Post -->
                                 <div class="single-post">
@@ -135,13 +135,13 @@
                         <!--/ End Single Widget -->
                         <!-- Single Widget -->
                         <div class="single-widget newsletter">
-                            <h3 class="title">Newslatter</h3>
+                            <h3 class="title">МЭДЭЭЛЭЛ АВАХ</h3>
                             <div class="letter-inner">
-                                <h4>Subscribe & get news <br> latest updates.</h4>
+                                <h4>И-мэйл хаягаараа<br> шинэ Нийтлэлүүдийг авах.</h4>
                                 <form method="POST" action="{{route('subscribe')}}" class="form-inner">
                                     @csrf
-                                    <input type="email" name="email" placeholder="Enter your email">
-                                    <button type="submit" class="btn " style="width: 100%">Submit</button>
+                                    <input type="email" name="email" placeholder="И-мэйл оруулна уу">
+                                    <button type="submit" class="btn " style="width: 100%">Бүртгүүлэх</button>
                                 </form>
                             </div>
                         </div>

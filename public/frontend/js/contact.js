@@ -35,8 +35,8 @@ $(document).ready(function(){
             },
             messages: {
                 name: {
-                    required: "come on, you have a name, don't you?",
-                    minlength: "your name must have at least 2 characters"
+                    required: "Өөрийн нэрээ оруулна уу",
+                    minlength: "Нэр 2 оос дээр үсэнгтэй байх ёстой"
                 },
                 subject: {
                     required: "come on, you have a subject, don't you?",
@@ -47,7 +47,7 @@ $(document).ready(function(){
                     minlength: "your Number must have at least 9 characters"
                 },
                 email: {
-                    required: "no email, no message"
+                    required: "И-мэйл хаяг оруулаагүй байна"
                 },
                 message: {
                     required: "um...yea, you have to write something to send this form.",

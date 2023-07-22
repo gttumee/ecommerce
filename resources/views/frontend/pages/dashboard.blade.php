@@ -1,5 +1,5 @@
 @extends('frontend.layouts.master')
-@section('title','Nimo.mn || Сагс')
+@section('title','Миний хуудас')
 @section('main-content')
 	<!-- Breadcrumbs -->
 	<div class="breadcrumbs">
@@ -9,7 +9,7 @@
 					<div class="bread-inner">
 						<ul class="bread-list">
 							<li><a href="{{('home')}}">Эхлэл<i class="ti-arrow-right"></i></a></li>
-							<li class="active"><a href="">Сагс</a></li>
+							<li class="active"><a href="">Миний хуудас</a></li>
 						</ul>
 					</div>
 				</div>

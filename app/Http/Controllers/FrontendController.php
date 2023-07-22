@@ -357,7 +357,7 @@ class FrontendController extends Controller
             return redirect()->route('home');
         }
         else{
-            request()->session()->flash('error','Invalid email and password pleas try again!');
+            request()->session()->flash('error','И-мэйл хаяг эсвэл Нууц үг буруу байна!');
             return redirect()->back();
         }
     }
