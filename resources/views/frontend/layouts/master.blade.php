@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-	@include('frontend.layouts.head')	
+	@include('frontend.layouts.head')
+	<meta name="viewport" content="width=500, initial-scale=1" />	
 </head>
 <body class="js">
 	
