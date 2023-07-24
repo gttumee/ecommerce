@@ -31,7 +31,7 @@
 <link rel="stylesheet" href="{{asset('frontend/css/slicknav.min.css')}}">
 <!-- Jquery Ui -->
 <link rel="stylesheet" href="{{asset('frontend/css/jquery-ui.css')}}">
-<meta name=”viewport” content=”width=device-width,initial-scale=1″>
+
 <!-- Eshop StyleSheet -->
 <link rel="stylesheet" href="{{asset('frontend/css/reset.css')}}">
 <link rel="stylesheet" href="{{asset('frontend/css/style.css')}}">

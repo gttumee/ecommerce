@@ -14,7 +14,7 @@
 	<meta property="og:image" content="{{$product_detail->photo}}">
 	<meta property="og:description" content="{{$product_detail->description}}">
 @endsection
-@section('title','Nimo.mn || Манай дэлгүүр')
+@section('title','Nimo.mn || Дэлгүүр')
 @section('main-content')
 
 		<!-- Breadcrumbs -->
